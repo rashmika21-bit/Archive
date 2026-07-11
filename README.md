@@ -4,7 +4,7 @@
 
 ### A Pinterest-inspired digital scrapbook for memories, places, coffee, books, and everything worth remembering.
 
-<img src="screenshots/home.png" width="100%" alt="Archive Homepage"/>
+<img src="C:\Users\Dell\OneDrive\画像\Screenshots\Screenshot 2026-07-11 180914.png" width="100%" alt="Archive Homepage"/>
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)]()
 [![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite)]()
