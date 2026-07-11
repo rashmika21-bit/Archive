@@ -55,6 +55,9 @@ The focus of the project was to build something that feels warm, calm, and perso
 
 ---
 
+## Mobile View
+<img src ="src/Images/Screenshot 2026-07-11 " width ="300"/>
+
 # 🛠 Tech Stack
 
 | Technology | Purpose |
