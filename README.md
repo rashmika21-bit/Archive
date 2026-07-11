@@ -49,9 +49,9 @@ The focus of the project was to build something that feels warm, calm, and perso
 
 ---
 
-## Mobile View
+## Dark Mode
 
-<img src="screenshots/mobile.png" width="300"/>
+<img src="src/Images/Screenshot 2026-07-11 181419.png" width="300"/>
 
 ---
 
