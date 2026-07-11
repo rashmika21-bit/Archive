@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Slow Coffee Morning",
+    "description": "A quiet corner, warm light, and the first cup that actually feels like a ritual.",
+    "category": "Coffee",
+    "image": "./Images/coffeedate.jpg",
+    "date": "2026-05-04",
+    "tags": ["coffee", "morning", "ritual"]
+  },
+  {
+    "id": 2,
+    "title": "Nora by the Window",
+    "description": "The kind of cat photo that makes the whole room feel calmer.",
+    "category": "Cats",
+    "image": "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-04-22",
+    "tags": ["cats", "soft light", "home"]
+  },
+  {
+    "id": 3,
+    "title": "Blue Hour in Lisbon",
+    "description": "A brief pause before dinner, with tiled streets and soft city noise.",
+    "category": "Travel",
+    "image": "https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-03-13",
+    "tags": ["travel", "places", "evening"]
+  },
+  {
+    "id": 4,
+    "title": "A Page From the Week",
+    "description": "Journal snippets, messy thoughts, and one line that stayed with me.",
+    "category": "Random",
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-05-21",
+    "tags": ["journal", "thoughts", "paper"]
+  },
+  {
+    "id": 5,
+    "title": "Rainy Indie Track",
+    "description": "A song that belongs on loop while the windows fog up.",
+    "category": "Music",
+    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-02-18",
+    "tags": ["music", "indie", "playlist"]
+  },
+  {
+    "id": 6,
+    "title": "Still Life with Bread and Butter",
+    "description": "Simple food, sculpted by light, made better by a slow afternoon.",
+    "category": "Food",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-04-02",
+    "tags": ["food", "table", "still life"]
+  },
+  {
+    "id": 7,
+    "title": "Books That Feel Like Rooms",
+    "description": "A small stack of novels I keep returning to for comfort and style.",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-01-30",
+    "tags": ["books", "reading", "quiet"]
+  },
+  {
+    "id": 8,
+    "title": "The Golden Hour Board",
+    "description": "A little moodboard of linen, coffee foam, stone, and sun-warmed walls.",
+    "category": "Dreams",
+    "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-06-07",
+    "tags": ["moodboard", "light", "soft"]
+  },
+  {
+    "id": 9,
+    "title": "Tokyo Alley Notes",
+    "description": "Tiny storefronts and the kind of detail that makes a city feel personal.",
+    "category": "Places",
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-03-29",
+    "tags": ["places", "city", "walking"]
+  },
+  {
+    "id": 10,
+    "title": "Vinyl and Evening Light",
+    "description": "The album art, the crackle, and the mood that settles in after 7 PM.",
+    "category": "Music",
+    "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-05-11",
+    "tags": ["music", "vinyl", "evening"]
+  },
+  {
+    "id": 11,
+    "title": "Cats in Sun Patches",
+    "description": "A quiet archive of naps, paws, and impossible softness.",
+    "category": "Cats",
+    "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-06-13",
+    "tags": ["cats", "sunlight", "nap"]
+  },
+  {
+    "id": 12,
+    "title": "Cappuccino Notes",
+    "description": "A reminder that the smallest rituals can still feel cinematic.",
+    "category": "Coffee",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-04-18",
+    "tags": ["coffee", "cafe", "morning"]
+  },
+  {
+    "id": 13,
+    "title": "Polaroid Wall",
+    "description": "Faces, places, and all the moments that felt too small to forget.",
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-02-08",
+    "tags": ["photography", "polaroid", "memory"]
+  },
+  {
+    "id": 14,
+    "title": "Night Ferry Reflection",
+    "description": "A soft study in movement, lights, and water after dark.",
+    "category": "Travel",
+    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-03-06",
+    "tags": ["travel", "water", "night"]
+  },
+  {
+    "id": 15,
+    "title": "The Half-Finished Thought",
+    "description": "A tiny journal entry that became a whole moodboard of its own.",
+    "category": "Random",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-05-30",
+    "tags": ["random", "notes", "ideas"]
+  },
+  {
+    "id": 16,
+    "title": "Mise En Place",
+    "description": "Bright produce, a clean counter, and the promise of an easy dinner.",
+    "category": "Food",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-01-19",
+    "tags": ["food", "kitchen", "prep"]
+  },
+  {
+    "id": 17,
+    "title": "A Shelf of Favorites",
+    "description": "The books I buy when I want the room to feel more like me.",
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1455885666463-0efe72d1a9a0?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-04-28",
+    "tags": ["books", "shelf", "favorites"]
+  },
+  {
+    "id": 18,
+    "title": "Dreaming in Neutral",
+    "description": "A soft palette of linen, paper, wood, and late-afternoon stillness.",
+    "category": "Dreams",
+    "image": "https://images.unsplash.com/photo-1495366754035-f37c3a9f5d0c?auto=format&fit=crop&w=1200&q=80",
+    "date": "2026-06-19",
+    "tags": ["dreams", "palette", "neutral"]
+  }
+]
