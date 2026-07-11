@@ -45,7 +45,7 @@ The focus of the project was to build something that feels warm, calm, and perso
 
 ## Home
 
-<img src="screenshots/home.png"/>
+<img src="src/Images/Screenshot 2026-07-11 181332.png"/>
 
 ---
 
