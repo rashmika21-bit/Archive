@@ -1,8 +1,10 @@
 import { FiSearch } from "react-icons/fi";
 
-function SearchBar({ value, onChange }) {
+function SearchBar({ value, onChange, className = "" }) {
   return (
-    <label className="flex h-12 w-full items-center gap-3 rounded-full border border-[var(--border)] bg-[var(--surface-strong)] px-4 text-sm text-muted shadow-sm">
+    <label
+      className={`flex h-12 w-full items-center gap-3 rounded-full border border-[var(--border)] bg-[var(--surface-strong)] px-4 text-sm text-muted shadow-sm ${className}`}
+    >
       <FiSearch className="shrink-0" />
       <input
         type="search"

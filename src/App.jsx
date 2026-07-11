@@ -102,7 +102,7 @@ function App() {
         }
       />
 
-      <main className="mx-auto w-full max-w-[1680px] px-4 pb-20 pt-28 sm:px-6 lg:px-8">
+      <main className="mx-auto w-full max-w-[1680px] px-4 pb-20 pt-36 sm:px-6 sm:pt-32 lg:px-8 lg:pt-28">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

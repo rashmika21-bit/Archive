@@ -16,14 +16,14 @@ function Modal({ item, isFavorited, onToggleFavorite, onClose }) {
         exit={{ opacity: 0, y: 20, scale: 0.98 }}
         transition={{ type: "spring", stiffness: 260, damping: 28 }}
         onClick={(event) => event.stopPropagation()}
-        className="w-full max-w-5xl overflow-hidden rounded-[32px] bg-[var(--surface-strong)] shadow-lift"
+        className="w-full max-w-5xl overflow-hidden rounded-[32px] bg-[var(--surface-strong)] shadow-lift max-h-[94vh] overflow-y-auto sm:max-h-[90vh]"
       >
         <div className="grid lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="relative min-h-[320px] bg-[var(--accent-soft)] lg:min-h-[720px]">
+          <div className="relative flex min-h-[280px] items-center justify-center bg-[var(--accent-soft)] sm:min-h-[340px] lg:min-h-[720px]">
             <img
               src={item.image}
               alt={item.title}
-              className="h-full w-full object-cover"
+              className="h-full max-h-[42vh] w-full object-contain sm:max-h-[50vh] lg:max-h-none lg:object-cover"
             />
           </div>
 

@@ -21,24 +21,41 @@ function Navbar({ search, onSearchChange, theme, onToggleTheme }) {
       className="fixed inset-x-0 top-0 z-40 px-3 pt-3 sm:px-5"
     >
       <div
-        className={`glass-panel mx-auto flex max-w-[1680px] flex-col gap-4 rounded-[28px] px-4 py-4 transition-all duration-300 md:flex-row md:items-center md:justify-between ${
+        className={`glass-panel mx-auto flex max-w-[1680px] flex-col gap-3 rounded-[24px] px-3 py-3 transition-all duration-300 sm:rounded-[28px] sm:px-4 sm:py-4 ${
           scrolled ? "shadow-lift" : ""
         }`}
       >
-        <a
-          href="#top"
-          className="flex items-center gap-3 text-[1.05rem] font-semibold tracking-[0.24em] text-[var(--text)]"
-        >
-          <span className="flex h-11 w-11 items-center justify-center rounded-[18px] bg-[var(--accent-soft)] text-[var(--text)] shadow-sm">
-            A
-          </span>
-          <span className="font-display text-2xl tracking-tight">Archive.</span>
-        </a>
+        <div className="flex items-center justify-between gap-3">
+          <a
+            href="#top"
+            className="flex items-center gap-3 text-[1.05rem] font-semibold tracking-[0.18em] text-[var(--text)] sm:tracking-[0.24em]"
+          >
+            <span className="flex h-10 w-10 items-center justify-center rounded-[16px] bg-[var(--accent-soft)] text-[var(--text)] shadow-sm sm:h-11 sm:w-11 sm:rounded-[18px]">
+              A
+            </span>
+            <span className="font-display text-xl tracking-tight sm:text-2xl">
+              Archive.
+            </span>
+          </a>
 
-        <div className="flex flex-1 flex-col gap-3 md:mx-10 md:flex-row md:items-center">
-          <SearchBar value={search} onChange={onSearchChange} />
+          <button
+            type="button"
+            onClick={onToggleTheme}
+            className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface-strong)] text-[var(--text)] shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg sm:h-12 sm:w-12"
+            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+          >
+            {theme === "dark" ? <FiSun /> : <FiMoon />}
+          </button>
+        </div>
 
-          <nav className="flex items-center gap-2 text-sm font-medium text-muted">
+        <div className="flex flex-1 flex-col gap-3 sm:mx-10 sm:flex-row sm:items-center">
+          <SearchBar
+            value={search}
+            onChange={onSearchChange}
+            className="h-11 sm:h-12"
+          />
+
+          <nav className="hidden items-center gap-2 text-sm font-medium text-muted sm:flex">
             <a
               href="#boards"
               className="rounded-full px-4 py-2 transition hover:bg-[var(--accent-soft)] hover:text-[var(--text)]"
@@ -53,15 +70,6 @@ function Navbar({ search, onSearchChange, theme, onToggleTheme }) {
             </a>
           </nav>
         </div>
-
-        <button
-          type="button"
-          onClick={onToggleTheme}
-          className="inline-flex h-12 w-12 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface-strong)] text-[var(--text)] shadow-sm transition hover:-translate-y-0.5 hover:shadow-lg"
-          aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
-        >
-          {theme === "dark" ? <FiSun /> : <FiMoon />}
-        </button>
       </div>
     </motion.header>
   );
