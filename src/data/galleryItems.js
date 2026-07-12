@@ -53,7 +53,7 @@ const galleryItems = [
     id: 1,
     title: "Coffee Date with Gursimrat",
     description:
-      "Coffe and Baegals. What else could you ask for. Went shoppinf after this.",
+      "Coffe and Bagels. What else could you ask for. Went shoppinf after this.",
     category: "Coffee",
     image: coffeeDateImage,
     date: "2026-06-12",
@@ -296,8 +296,7 @@ const galleryItems = [
   {
     id: 27,
     title: "  Green tea at hometown",
-    description:
-      "I miss my ghar",
+    description: "I miss my ghar",
     category: "Coffee",
     image: coffeeTeaImage,
     date: "2026-06-11",
@@ -306,8 +305,7 @@ const galleryItems = [
   {
     id: 28,
     title: "Concert Lights",
-    description:
-      "Iritash band ko first time dekha tha. Not badddd.",
+    description: "Iritash band ko first time dekha tha. Not badddd.",
     category: "Music",
     image: concertImage,
     date: "2026-06-10",
@@ -316,8 +314,7 @@ const galleryItems = [
   {
     id: 29,
     title: "Kitty Cameo",
-    description:
-      "Bhot mann tha usko churaa ke bhaag jaane ka.",
+    description: "Bhot mann tha usko churaa ke bhaag jaane ka.",
     category: "Random",
     image: cuteKittyImage,
     date: "2026-06-09",
@@ -335,8 +332,7 @@ const galleryItems = [
   {
     id: 31,
     title: "Doughnut Case",
-    description:
-      "I love doughnut. Mujhe vaapis khaane hain.",
+    description: "I love doughnut. Mujhe vaapis khaane hain.",
     category: "Food",
     image: doughnutImage,
     date: "2026-06-07",
@@ -345,8 +341,7 @@ const galleryItems = [
   {
     id: 32,
     title: "Valentines Dress",
-    description:
-      "Worst day of my life but atleast I looked pretty.",
+    description: "Worst day of my life but atleast I looked pretty.",
     category: "Portraits",
     image: dressPrettyImage,
     date: "2026-06-06",
@@ -355,8 +350,7 @@ const galleryItems = [
   {
     id: 33,
     title: "Favorite Dress",
-    description:
-      "I just like this picture.",
+    description: "I just like this picture.",
     category: "Portraits",
     image: favDressImage,
     date: "2026-06-05",
@@ -374,8 +368,7 @@ const galleryItems = [
   {
     id: 35,
     title: "Trio",
-    description:
-      "Lmao they look so done with me.",
+    description: "Lmao they look so done with me.",
     category: "Portraits",
     image: friendsImage,
     date: "2026-06-03",
@@ -384,8 +377,7 @@ const galleryItems = [
   {
     id: 36,
     title: "Trio-2",
-    description:
-      "I miss Sneha.",
+    description: "I miss Sneha.",
     category: "Portraits",
     image: friends2Image,
     date: "2026-06-02",
@@ -404,8 +396,7 @@ const galleryItems = [
   {
     id: 38,
     title: "Lana Del Rey Code",
-    description:
-      "Okayy A moment for the fit please.",
+    description: "Okayy A moment for the fit please.",
     category: "Music",
     image: lanaDelReyCodedImage,
     date: "2026-05-31",
@@ -414,8 +405,7 @@ const galleryItems = [
   {
     id: 39,
     title: "Muwehhehe",
-    description:
-      "Yahi karwate raho merese.",
+    description: "Yahi karwate raho merese.",
     category: "Random",
     image: muwehheheImage,
     date: "2026-05-30",
@@ -424,8 +414,7 @@ const galleryItems = [
   {
     id: 40,
     title: "My City",
-    description:
-      "Love this city and people.",
+    description: "Love this city and people.",
     category: "Travel",
     image: myCityImage,
     date: "2026-05-29",
@@ -454,8 +443,7 @@ const galleryItems = [
   {
     id: 43,
     title: "Saibaa",
-    description:
-      "I love that song and story pe bhi ussi ke saath lagaya tha",
+    description: "I love that song and story pe bhi ussi ke saath lagaya tha",
     category: "Travel",
     image: saibaaImage,
     date: "2026-05-26",
@@ -464,8 +452,7 @@ const galleryItems = [
   {
     id: 44,
     title: "Nails Check",
-    description:
-      "Flexing my nailsss.",
+    description: "Flexing my nailsss.",
     category: "Portraits",
     image: showingOffNailsImage,
     date: "2026-05-25",
@@ -474,8 +461,7 @@ const galleryItems = [
   {
     id: 45,
     title: "Oinkiee",
-    description:
-      "My friends said i look like a pig here.",
+    description: "My friends said i look like a pig here.",
     category: "Portraits",
     image: sillyMeImage,
     date: "2026-05-24",
@@ -494,8 +480,7 @@ const galleryItems = [
   {
     id: 47,
     title: "Blue Dress",
-    description:
-      "Mujhe koi ghumaane le chalooo. Vaapis pehnni hai ye dressss.",
+    description: "Mujhe koi ghumaane le chalooo. Vaapis pehnni hai ye dressss.",
     category: "Portraits",
     image: strikeThePoseImage,
     date: "2026-05-22",
@@ -504,8 +489,7 @@ const galleryItems = [
   {
     id: 48,
     title: "Tibetan Thukpa",
-    description:
-      "It was so tasty.",
+    description: "It was so tasty.",
     category: "Food",
     image: thukpaImage,
     date: "2026-05-21",
